@@ -19,12 +19,16 @@
 ]
 ```
 
-## Для запуска необходимо отправить запрос формата :
-```curl -X 'POST' \
+## Для запуска:
+```pip install -r requirements.txt```
+
+## Необходимо отправить запрос формата :
+```
+curl -X 'POST' \
   'http://127.0.0.1:8000/find-okved' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
   "phone": "79121234567"
 }
-```# test_exercise
+```
